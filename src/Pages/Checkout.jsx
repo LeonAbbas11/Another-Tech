@@ -5,11 +5,12 @@ import Sidebar from '../Components/Sidebar'
 import Loading from '../Components/Loading'
 import Swal from 'sweetalert2'
 import axios from 'axios'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
 const Checkout = () => {
 
     const {id} = useParams();
+    const navigate = useNavigate();
     const [showMenu, setShowMenu] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
     const [form, setForm] = useState({
@@ -68,6 +69,7 @@ const Checkout = () => {
                   });
                 }
               });
+              navigate('/')
         } catch (error) {
             setIsLoading(true);
             Swal.fire({
