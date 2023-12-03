@@ -53,7 +53,7 @@ const Main = () => {
           <div className="line bg-gradient-to-r from-[#fd4c00ce] to-[#FD4C00] p-1 md:p-2 my-10 md:my-20"></div>
           <div className="mobile md:hidden mb-10 space-y-6">
             <p className='text-2xl font-semibold'>Another Tech Present.</p>
-            <p className=''>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima explicabo expedita blanditiis asperiores aliquam neque ipsa quia, quae non? Assumenda alias voluptatem nulla provident. Vel?</p>
+            <p className=''>Anothertech is a type of production business for making amplifiers which operates in an electronic category such as audio and communications. Anothertech is growing in the Asian region, namely in Indonesia, because there are many requests and enthusiasts for the use of amplifier products.</p>
           </div>
           <div className="wraps grid space-y-5 md:space-y-0 md:flex">
             <div className="box rounded-lg p-6 shadow-2xl mx-auto md:mx-0 w-[200px] md:w-[300px]">

@@ -25,7 +25,6 @@ const Checkout = () => {
         product: id === '1' ? 'Amplifier 250 watt' : id === '2' ? 'Amplifier 400 watt vhf 144-148 Mhz' : id === '3' ? 'VHF AMPLIFIER 900 WATT' : 'KIT AMPLIFIER VHF 144-148 MHZ 900 WATT',
         price: id === '1' ? 275 : id === '2' ? 475 : id === '3' ? 675 : 425
     })
-    console.log(form);
 
     const handleChange = (e) => {
         setForm({
@@ -62,6 +61,7 @@ const Checkout = () => {
                     setIsLoading(true);
                     await axios.post(`${process.env.REACT_APP_API}checkout`, form)
                     setIsLoading(false)
+                    navigate('/')
                     Swal.fire({
                         title: "Success!",
                         text: "Your order has been proccess, our team will send you an email",
@@ -69,7 +69,6 @@ const Checkout = () => {
                   });
                 }
               });
-              navigate('/')
         } catch (error) {
             setIsLoading(true);
             Swal.fire({
