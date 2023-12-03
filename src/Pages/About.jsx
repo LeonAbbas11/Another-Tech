@@ -55,8 +55,8 @@ const About = () => {
                 <p className='text-xl mb-3 w-full xl:w-1/2 mx-auto text-start'>6. Competitive Pricing:</p>
                 <p className='w-full xl:w-1/2 mx-auto text-start'>Enjoy competitive pricing without compromising on quality. We believe in offering cost-effective solutions that add value to your business. Partner with us for affordable yet premium audio amplifiers and radio equipment.</p>
             </div>
-            <p className='w-full xl:w-1/2 text-xl font-semibold my-3 text-start'>Whether you're a retailer looking to expand your product offerings or an audio professional seeking the best equipment, Another Tech is your trusted partner in delivering cutting-edge audio solutions. Amplify your customer's experience – choose Another Tech as your preferred amplifier audio and radio supplier.</p>
-            <p className='w-full xl:w-1/2 text-xl font-semibold my-3 text-start'>Contact us today to explore our product catalog and take the first step towards enhancing your audio offerings!</p>
+            <p className='w-full xl:w-1/2 text-xl font-semibold my-3 text-start md:text-center mx-auto'>Whether you're a retailer looking to expand your product offerings or an audio professional seeking the best equipment, Another Tech is your trusted partner in delivering cutting-edge audio solutions. Amplify your customer's experience – choose Another Tech as your preferred amplifier audio and radio supplier.</p>
+            <p className='w-full xl:w-1/2 text-xl font-semibold my-3 text-start md:text-center mx-auto'>Contact us today to explore our product catalog and take the first step towards enhancing your audio offerings!</p>
         </div>
       </div>
     <Footer />
