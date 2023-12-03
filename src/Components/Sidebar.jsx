@@ -7,7 +7,7 @@ const Sidebar = ({ show, close }) => {
   const navigate = useNavigate();
 
   return (
-    <div className={`fixed border-2 top-0 w-3/4 md:w-1/4 h-screen bg-gradient-to-r from-[#fd4c00ce] to-[#FD4C00] transition-all duration-300 ${show === true ? '-left-1' : '-left-[500px]'}`}>
+    <div className={`fixed border-2 -top-1 w-3/4 md:w-1/4 h-screen bg-gradient-to-r from-[#fd4c00ce] to-[#FD4C00] transition-all duration-300 ${show === true ? '-left-1' : '-left-[500px]'}`}>
         <div className="close grid">
           <button className='text-white ml-auto mr-5 mt-5 transition-all duration-300 hover:scale-105 hover:rotate-180' onClick={close}>
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-x-lg" viewBox="0 0 16 16">
@@ -22,10 +22,9 @@ const Sidebar = ({ show, close }) => {
           </div>
           <div className="grid text-white mt-10 space-y-5">
             <button className='text-white transition-all duration-500 hover:scale-105 w-max pl-5 hover:font-semibold' onClick={()=>navigate('/product')}>Our Products</button>
-            <button className='text-white transition-all duration-500 hover:scale-105 w-max pl-5 hover:font-semibold'>About Us</button>
-            <button className='text-white transition-all duration-500 hover:scale-105 w-max pl-5 hover:font-semibold'>Contact Us</button>
-            <button className='text-white transition-all duration-500 hover:scale-105 w-max pl-5 hover:font-semibold' onClick={()=>navigate('/checkout')}>How to Order</button>
-            <button className='text-white transition-all duration-500 hover:scale-105 w-max pl-5 hover:font-semibold' onClick={()=>navigate('/checkout')}>Testimony</button>
+            <button className='text-white transition-all duration-500 hover:scale-105 w-max pl-5 hover:font-semibold' onClick={()=>navigate('/about-us')}>About Us</button>
+            {/* <button className='text-white transition-all duration-500 hover:scale-105 w-max pl-5 hover:font-semibold' onClick={()=>navigate('/product')}>Contact Us</button> */}
+            <button className='text-white transition-all duration-500 hover:scale-105 w-max pl-5 hover:font-semibold' onClick={()=>navigate('/testimony')}>Testimony</button>
           </div>
         </div>
     </div>

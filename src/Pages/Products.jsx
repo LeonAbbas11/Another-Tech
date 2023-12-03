@@ -32,7 +32,8 @@ const Products = () => {
           <p className='text-3xl font-semibold mb-5'>Products</p>
           <div className="line bg-gradient-to-r from-[#fd4c00ce] to-[#FD4C00] p-1"></div>
           <div className="wrapper p-5 md:p-0">
-            <p className='text-xl font font-semibold mb-10'>Anothertech Solution amplifier audio and radio. You can get the best amplifier from us.</p>
+            <p className='text-2xl font-semibold my-3'>Anothertech Solution amplifier audio and radio.</p>
+            <p className='text-xl mb-10 w-full xl:w-1/2 mx-auto'>Are you ready to elevate your audio experience to new heights? Look no further! Our exclusive Amplifier Audio and Radio Offer bring you cutting-edge technology and unmatched performance to transform the way you listen. Whether you're an audiophile, a radio enthusiast, or someone who simply appreciates crystal-clear sound, this offer is designed for you.</p>
             <div className="grid md:flex mb-10 md:mb-20 space-y-10 md:space-y-0">
               <div className="w-full md:w-1/2 grid">
                 <div className="w-full md:w-3/4 grid m-auto border rounded-lg p-5">
@@ -40,7 +41,7 @@ const Products = () => {
                 </div>
                 <p className='mt-5 text-xl font-semibold'>Amplifier 250 watt amplifier only</p>
                 <p>$250 include shipping cost</p>
-                <button onClick={()=>navigate('/detail/1')} className='py-1 w-1/4 rounded-full border mx-auto mt-5 transition-all duration-500 hover:scale-110 hover:bg-[#FD4C00] hover:text-white'>See more...</button>
+                <button onClick={()=>navigate('/detail/1')} className='py-1 w-3/4 xl:w-1/4 rounded-full border mx-auto mt-5 transition-all duration-500 hover:scale-110 hover:bg-[#FD4C00] hover:text-white'>See more...</button>
               </div>
               <div className="w-full md:w-1/2">
                 <div className="w-full md:w-3/4 m-auto grid border rounded-lg p-5">
@@ -48,7 +49,7 @@ const Products = () => {
                 </div>
                 <p className='text-xl font-semibold mt-5'>Amplifier 400 watt vhf 144-148 Mhz building power supply</p>
                 <p>$450 include shipping cost</p>
-                <button onClick={()=>navigate('/detail/2')} className='py-1 w-1/4 rounded-full border mx-auto mt-5 transition-all duration-500 hover:scale-110 hover:bg-[#FD4C00] hover:text-white'>See more...</button>
+                <button onClick={()=>navigate('/detail/2')} className='py-1 w-3/4 xl:w-1/4 rounded-full border mx-auto mt-5 transition-all duration-500 hover:scale-110 hover:bg-[#FD4C00] hover:text-white'>See more...</button>
               </div>
               </div>
               <div className="grid md:flex mb-0 md:mb-10 space-y-10 md:space-y-0">
@@ -58,7 +59,7 @@ const Products = () => {
                 </div>
                 <p className='mt-5 text-xl font-semibold'>Amplifier 900 watt vhf 144-148 Mhz building power supply</p>
                 <p>$650 include shipping cost</p>
-                <button onClick={()=>navigate('/detail/3')} className='py-1 w-1/4 rounded-full border mx-auto mt-5 transition-all duration-500 hover:scale-110 hover:bg-[#FD4C00] hover:text-white'>See more...</button>
+                <button onClick={()=>navigate('/detail/3')} className='py-1 w-3/4 xl:w-1/4 rounded-full border mx-auto mt-5 transition-all duration-500 hover:scale-110 hover:bg-[#FD4C00] hover:text-white'>See more...</button>
               </div>
               <div className="w-full md:w-1/2 grid">
                 <div className="w-full md:w-3/4 m-auto grid border rounded-lg p-5">
@@ -66,7 +67,7 @@ const Products = () => {
                 </div>
                 <p className='mt-5 text-xl font-semibold'>Kit amplifier 800-900 watt vhf 144-148 mhz just enter the casing</p>
                 <p>$400 include shipping cost</p>
-                <button onClick={()=>navigate('/detail/4')} className='py-1 w-1/4 rounded-full border mx-auto mt-5 transition-all duration-500 hover:scale-110 hover:bg-[#FD4C00] hover:text-white'>See more...</button>
+                <button onClick={()=>navigate('/detail/4')} className='py-1 w-3/4 xl:w-1/4 rounded-full border mx-auto mt-5 transition-all duration-500 hover:scale-110 hover:bg-[#FD4C00] hover:text-white'>See more...</button>
               </div>
             </div>
           </div>
