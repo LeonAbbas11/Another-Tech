@@ -7,7 +7,7 @@ const Sidebar = ({ show, close }) => {
   const navigate = useNavigate();
 
   return (
-    <div className={`fixed border-2 -top-1 w-3/4 md:w-1/4 h-screen bg-gradient-to-r from-[#fd4c00ce] to-[#FD4C00] transition-all duration-300 ${show === true ? '-left-1' : '-left-[500px]'}`}>
+    <div className={`fixed border-2 -top-1 w-3/4 md:w-1/4 h-screen bg-gradient-to-r from-[#fd4c00ce] to-[#FD4C00] transition-all duration-300 ${show === true ? '-left-1' : '-left-[500px] md:-left-[800px]'}`}>
         <div className="close grid">
           <button className='text-white ml-auto mr-5 mt-5 transition-all duration-300 hover:scale-105 hover:rotate-180' onClick={close}>
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-x-lg" viewBox="0 0 16 16">
